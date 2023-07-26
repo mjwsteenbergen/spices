@@ -83,10 +83,12 @@
         "name": "Fenegriek"
     },
     {
-        "name": "Kardemom (img)"
+        "name": "Kardemom",
+        "imageSrc": "https://www.herbalao.nl/6528-large_default/kardemom-met-schaal-heel.jpg"
     },
     {
-        "name": "Fennel (img)"
+        "name": "Fennel",
+        "imageSrc": "https://www.awesomecuisine.com/content_images/1/fennel_seeds.jpg"
     },
     {
         "name": "Biryani Masala"
