@@ -16,15 +16,15 @@
     },
     {
         "name": "Chili Powder",
-        "imageSrc": ""
+        "imageSrc": "#FF2F00"
     },
     {
         "name": "Garlic Powder",
-        "imageSrc": ""
+        "imageSrc": "white"
     },
     {
         "name": "Basil Powder",
-        "imageSrc": ""
+        "imageSrc": "white"
     },
     {
         "name": "Mustard Seeds",
