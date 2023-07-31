@@ -128,7 +128,7 @@ export const spices: Spice[] = [
   },
   {
     name: "Amchur",
-    color: "#FDFBF0",
+    color: "beige",
     dark: true
   },
   {
