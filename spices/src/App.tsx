@@ -37,13 +37,13 @@ export const Circle = ({ name, url, color, dark }: { name: string, url?: string,
   return <article className='grid rounded-full w-[3cm] aspect-square overflow-hidden bg-primary-700 justify-center items-center text-center  font-heading' style={{
     backgroundColor: color
   }}>
-    <span className={text({ dark, className: 'col-start-1 row-start-1 z-10 grid-col-1 grid-row-1 p-3 font-bold text-white' })}>{name}</span>
+    <span className={text({ dark, className: 'col-start-1 row-start-1 z-10 grid-col-1 grid-row-1 p-3 font-bold' })}>{name}</span>
     {url && <img className='col-start-1 row-start-1 object-cover w-full h-full scale-150 aspect-square brightness-75' src={url}/>}
   </article>
 } 
 
 export const Strip = ({ name, color, dark }: { name: string, color: string, dark?: boolean}) => {
-  return <article className='w-[12.7cm] h-[1cm] grid justify-center items-center text-center text-white font-bold font-heading'  style={{
+  return <article className='w-[12.7cm] h-[1cm] grid justify-center items-center text-center font-bold font-heading'  style={{
     backgroundColor: color
   }}>
     <span className={text({ dark })}>{name}</span>
