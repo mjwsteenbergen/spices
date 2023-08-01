@@ -96,7 +96,7 @@ export const spices: Spice[] = [
   },
   {
     name: "Coriander",
-    color: "#4D8B16",
+    color: "#9f7b3e",
   },
   {
     name: "Paprika",
