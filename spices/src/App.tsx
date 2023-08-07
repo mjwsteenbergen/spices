@@ -43,7 +43,7 @@ export const Circle = ({ name, url, color, dark }: { name: string, url?: string,
 } 
 
 export const Strip = ({ name, color, dark }: { name: string, color: string, dark?: boolean}) => {
-  return <article className='w-[12.7cm] h-[1cm] grid justify-center items-center text-center font-bold font-heading'  style={{
+  return <article className='w-[16cm] h-[1cm] grid justify-center items-center text-center font-bold font-heading'  style={{
     backgroundColor: color
   }}>
     <span className={text({ dark })}>{name}</span>
