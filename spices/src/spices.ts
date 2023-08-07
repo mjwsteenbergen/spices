@@ -8,7 +8,7 @@ type Spice = {
 export const spices: Spice[] = [
   {
     name: "Onion Powder",
-    color: "white",
+    color: "rgb(252 252 252 / var(--tw-bg-opacity))",
     dark: true,
     // imageSrcOld2:
     //   "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Onion_Powder%2C_Penzeys_Spices%2C_Arlington_Heights_MA.jpg/500px-Onion_Powder%2C_Penzeys_Spices%2C_Arlington_Heights_MA.jpg",
@@ -33,7 +33,7 @@ export const spices: Spice[] = [
   },
   {
     name: "Garlic Powder",
-    color: "white",
+    color: "rgb(252 252 252 / var(--tw-bg-opacity))",
     dark: true,
   },
   {
@@ -57,7 +57,7 @@ export const spices: Spice[] = [
       "https://www.nybg.org/content/uploads/2020/02/iStock-496575118.jpg",
   },
   {
-    name: "Dille",
+    name: "Dill",
     color: "#788d60",
   },
   {
@@ -83,7 +83,7 @@ export const spices: Spice[] = [
   },
   {
     name: "Vanilla Sugar",
-    color: "white",
+    color: "rgb(252 252 252 / var(--tw-bg-opacity))",
     dark: true
   },
   {

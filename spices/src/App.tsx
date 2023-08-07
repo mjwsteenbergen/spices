@@ -4,7 +4,7 @@ import { cva } from 'class-variance-authority';
 
 const App = () => {
   return (
-    <main className='grid gap-3 p-3 bg0'>
+    <main className='grid gap-3 p-3'>
       <div className='flex flex-wrap gap-4'>
 
       {spices.map(i => {
@@ -34,11 +34,11 @@ const text = cva("", {
 })
 
 export const Circle = ({ name, url, color, dark }: { name: string, url?: string, color?: string, dark?: boolean}) => {
-  return <article className='grid rounded-full w-[3cm] aspect-square overflow-hidden bg-primary-700 justify-center items-center text-center  font-heading' style={{
+  return <article className='grid rounded-full w-[3cm] h-[3cm] aspect-square overflow-hidden bg-primary-700 justify-center items-center text-center  font-heading' style={{
     backgroundColor: color
   }}>
     <span className={text({ dark, className: 'col-start-1 row-start-1 z-10 grid-col-1 grid-row-1 p-3 font-bold' })}>{name}</span>
-    {url && <img className='col-start-1 row-start-1 object-cover w-full h-full scale-150 aspect-square brightness-75' src={url}/>}
+    {url && <img className='col-start-1 row-start-1 object-cover w-[3cm] h-[3cm] scale-150 aspect-square brightness-75' src={url}/>}
   </article>
 } 
 
