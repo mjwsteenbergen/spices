@@ -1,8 +1,10 @@
-import React from 'react'
 import { spices } from "./spices";
-import { cva } from 'class-variance-authority';
+import { useState } from "react";
+import { QuestionMark } from "iconoir-react";
+// import { cva } from 'class-variance-authority';
 
 const App = () => {
+  useState(true);
   return (
     <main className='grid gap-3 p-3'>
       <div className='flex flex-wrap gap-4'>
@@ -21,22 +23,25 @@ const App = () => {
   );
 };
 
-const text = cva("", {
-  variants: {
-    dark: {
-      true: ["text-black-900"],
-      false: ["text-white"]
-    }
-  },
-  defaultVariants: {
-    dark: false
-  }
-})
+// const text = cva("", {
+//   variants: {
+//     dark: {
+//       true: ["text-black-900"],
+//       false: ["text-white"] 
+//     }
+//   },
+//   defaultVariants: {
+//     dark: false
+//   }
+// })
+
+const text = (input: any) => { return ""};
 
 export const Circle = ({ name, url, color, dark }: { name: string, url?: string, color?: string, dark?: boolean}) => {
   return <article className='grid rounded-full w-[3cm] h-[3cm] aspect-square overflow-hidden bg-primary-700 justify-center items-center text-center  font-heading' style={{
     backgroundColor: color
   }}>
+    <Iconoir onPointerEnterCapture={() => {}} onPointerLeaveCapture={() => {}}/>
     <span className={text({ dark, className: 'col-start-1 row-start-1 z-10 grid-col-1 grid-row-1 p-3 font-bold' })}>{name}</span>
     {url && <img className='col-start-1 row-start-1 object-cover w-[3cm] h-[3cm] scale-150 aspect-square brightness-75' src={url}/>}
   </article>
