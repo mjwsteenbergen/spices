@@ -71,6 +71,7 @@ export const spices: Spice[] = [
   {
     name: "Italian Herbs",
     color: "#829F82",
+    dark: true,
     imageSrc: "https://upload.wikimedia.org/wikipedia/en/thumb/0/03/Flag_of_Italy.svg/2880px-Flag_of_Italy.svg.png"
   },
   {
@@ -139,4 +140,35 @@ export const spices: Spice[] = [
     name: "Chai Masala",
     color: "#B28330",
   },
+  {
+    name: "Chili flakes",
+    color: "#CD523C",
+    imageSrc: "https://northernnester.com/wp-content/uploads/2023/01/chili-flakes-vs-red-pepper-flakes.jpg"
+  },
+  {
+    name: "Celery Leaf",
+    color: "#598C3F",
+    imageSrc:"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fthumbs.dreamstime.com%2Fb%2Fdried-chopped-celery-leaves-as-background-top-view-245914853.jpg&f=1&nofb=1&ipt=3906297aa1fcf152aaac3e90a34e1bb3b167e24d25a2133636a189c785e2f69c"
+  },
+  {
+    name: "Sugar",
+    color: "rgb(252 252 252 / var(--tw-bg-opacity))",
+    imageSrc: "https://static.vecteezy.com/system/resources/previews/015/624/332/large_2x/sugar-texture-background-white-sugar-for-food-and-sweets-dessert-candy-heap-of-sweet-sugar-crystalline-granulated-free-photo.JPG",
+    dark: true
+  },
+  {
+    name: "Sage",
+    color: "#758B50",
+    imageSrc: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.foodchamps.org%2Fwp-content%2Fuploads%2F2022%2F04%2FRubbed-Sage-1.png&f=1&nofb=1&ipt=e3c7766be63ba224bb170c677224e1cadbe936b9c1c4536d29d1f57fbc8b87eb"
+  },
+  {
+    name: "Cloves",
+    color: "#553E36",
+    imageSrc:"https://img.freepik.com/premium-photo/dry-cloves-spice-as-background-natural-seasoning-texture_84485-107.jpg?w=2000"
+  },
+  {
+    name: "Chai",
+    color: "black",
+    imageSrc: "https://static.vecteezy.com/system/resources/previews/005/024/012/large_2x/black-tea-texture-photo.JPG",
+  }
 ];

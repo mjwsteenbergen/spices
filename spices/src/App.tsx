@@ -38,7 +38,7 @@ export const Circle = ({ name, url, color, dark }: { name: string, url?: string,
     backgroundColor: color
   }}>
     <span className={text({ dark, className: 'col-start-1 row-start-1 z-10 grid-col-1 grid-row-1 p-3 font-bold' })}>{name}</span>
-    {url && <img className='col-start-1 row-start-1 object-cover w-[3cm] h-[3cm] scale-150 aspect-square brightness-75' src={url}/>}
+    {url && <img className={'col-start-1 row-start-1 object-cover w-[3cm] h-[3cm] scale-150 aspect-square ' + (!dark && "brightness-75")} src={url}/>}
   </article>
 } 
 
